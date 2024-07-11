@@ -1,0 +1,216 @@
+.gridIcon {
+  width: 1585.3px;
+  height: 684.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: -376px;
+  right: -432.7px;
+  mix-blend-mode: overlay;
+}
+.copyTrade {
+  margin: 0;
+  width: 341px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 150%;
+  font-family: var(--font-inter);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    #878794;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+.copyTradeParent {
+  width: 396px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.chartElementOne,
+.chartElementTwo {
+  height: 160px;
+  flex: 1;
+  position: relative;
+  border-radius: 11.31px;
+  background-color: var(--color-gray-400);
+  border: 1.4px solid var(--color-gray-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 157px;
+  max-width: 160px;
+}
+.chartElementThree {
+  position: absolute;
+  right: -9.1px;
+  bottom: -46.8px;
+  border-radius: 12.31px;
+  width: 82.1px;
+  height: 82.1px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+@media(max-width:450px){
+  .chartElementThree{
+    right: -54.1px;
+    bottom: -144.8px;
+  }
+}
+.chartElementFive,
+.chartElementFour,
+.chartElementThreeContainer {
+  height: 160px;
+  flex: 1;
+  position: relative;
+  border-radius: 11.31px;
+  background-color: var(--color-gray-400);
+  border: 1.4px solid var(--color-gray-400);
+  box-sizing: border-box;
+  min-width: 157px;
+  max-width: 160px;
+}
+.chartElementFive,
+.chartElementFour {
+  overflow: hidden;
+}
+.chartInnerContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.chartSubElementOne {
+  height: 160px;
+  flex: 1;
+  position: relative;
+  border-radius: 11.31px;
+  background-color: var(--color-gray-400);
+  border: 1.4px solid var(--color-gray-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 147px;
+  max-width: 160px;
+}
+.chartSubElementThree,
+.chartSubElementTwo {
+  z-index: 2;
+}
+.chartSubElementFour,
+.chartSubElementThree,
+.chartSubElementTwo {
+  height: 160px;
+  flex: 1;
+  position: relative;
+  border-radius: 11.31px;
+  background-color: var(--color-gray-400);
+  border: 1.4px solid var(--color-gray-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 147px;
+  max-width: 160px;
+}
+.chartElementsContainer,
+.chartInnerElementsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.chartInnerElementsContainer {
+  flex: 1;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.chartElementsContainer {
+  width: 782px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-16xl);
+  box-sizing: border-box;
+}
+.chartContainer,
+.section3 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.chartContainer {
+  margin-left: -176px;
+  width: 896px;
+  align-items: flex-end;
+  gap: var(--gap-5xl-7);
+  max-width: 140%;
+}
+
+@media(max-width:450px){
+  .chartContainer{
+    margin-left: -70px;
+  }
+}
+.section3 {
+  /* width: 720px; */
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-45xl) var(--padding-21xl) var(--padding-14xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-77xl-3);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-geist);
+}
+@media screen and (max-width: 1350px) {
+  .chartInnerContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .chartInnerElementsContainer {
+    flex-wrap: wrap;
+  }
+  .section3 {
+    gap: var(--gap-29xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .copyTrade {
+    font-size: var(--font-size-7xl);
+    line-height: 31px;
+  }
+  .section3 {
+    gap: var(--gap-5xl);
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .copyTrade {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+}

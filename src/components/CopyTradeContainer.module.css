@@ -1,0 +1,173 @@
+.btc,
+.frameChild {
+  align-self: stretch;
+  position: relative;
+}
+.btc {
+  margin: 0;
+  width: 63px;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+}
+.frameChild {
+  height: 20.8px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bTCContainerInner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-6) var(--padding-8xl) 0 0;
+}
+.div {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.bTCContainer,
+.bTCEmptyContainer {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bTCEmptyContainer {
+  width: 65px;
+  flex-direction: column;
+  padding: var(--padding-3xs-5) 0 0;
+  text-align: right;
+  font-size: var(--font-size-base);
+  color: var(--color-yellow);
+}
+.bTCContainer {
+  position: absolute;
+  top: 196.5px;
+  left: 0;
+  border-radius: 11.31px;
+  background-color: var(--color-gray-400);
+  border: 1.4px solid var(--color-gray-400);
+  width: 375px;
+  height: 64px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-smi) var(--padding-4xl) var(--padding-smi)
+    var(--padding-96xl);
+  gap: var(--gap-mini);
+  z-index: 3;
+}
+.frameInner,
+.frameItem,
+.gridIcon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 100%;
+}
+.gridIcon {
+  left: -433.6px;
+  width: 1585.3px;
+  mix-blend-mode: overlay;
+}
+.frameInner,
+.frameItem {
+  left: -75px;
+  width: 794px;
+  z-index: 1;
+}
+.frameInner {
+  width: 811px;
+  z-index: 2;
+}
+.vectorParent {
+  position: absolute;
+  top: 43.5px;
+  left: 0;
+  width: 736px;
+  height: 433.9px;
+}
+.copyTradeDescriptionContainChild {
+  position: absolute;
+  top: 27.8px;
+  left: -145.1px;
+  border-radius: 11.31px;
+  width: 379.2px;
+  height: 97.4px;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 3;
+}
+.copyTradeDescriptionContainInner,
+.copyTradeDescriptionContainItem,
+.frameIcon {
+  position: absolute;
+  top: 115.2px;
+  left: -105.8px;
+  border-radius: 11.31px;
+  width: 376.7px;
+  height: 74.6px;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 4;
+}
+.copyTradeDescriptionContainInner,
+.frameIcon {
+  top: 260.5px;
+  left: -119px;
+  width: 379.9px;
+  height: 107.4px;
+  z-index: 3;
+}
+.frameIcon {
+  top: 346.7px;
+  left: -151.9px;
+  width: 377.8px;
+  height: 83.6px;
+  z-index: 4;
+}
+.copyTradeDescriptionContain {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 191px;
+  width: 1151.7px;
+}
+.copyTradeContainer {
+  margin-left: -230px;
+  width: 1342.7px;
+  height: 684.5px;
+  position: relative;
+  flex-shrink: 0;
+  max-width: 210%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-geist);
+}
+@media screen and (max-width: 800px) {
+  .btc {
+    font-size: var(--font-size-7xl);
+    line-height: 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .btc {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .copyTradeContainer{
+    height:550px
+  }
+}

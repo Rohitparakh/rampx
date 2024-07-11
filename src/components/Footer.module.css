@@ -1,0 +1,324 @@
+.groupIcon {
+  height: 50.9px;
+  width: 62.2px;
+  position: relative;
+}
+.emptyFooterTopItem {
+  align-self: stretch;
+  height: 31.2px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.emptyFooterTop,
+.footerTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emptyFooterTop {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-3xs-8) 0 0;
+}
+.footerTop {
+  width: 271.8px;
+  flex-direction: row;
+  gap: var(--gap-3xs-3);
+}
+.products {
+  width: 77px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.aggregator,
+.perpDex,
+.vault {
+  position: relative;
+  line-height: 150%;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    #93939f;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-width: 69px;
+}
+.aggregator,
+.vault {
+  min-width: 110px;
+}
+.vault {
+  min-width: 38px;
+}
+.productLinksList {
+  align-self: stretch;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.productItems,
+.productLinks,
+.productLinksList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productItems {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+.productLinks {
+  /* width: 110px; */
+  width: 100%;
+  /* padding: var(--padding-8xs-6) 0 0; */
+  padding: 0;
+  box-sizing: border-box;
+}
+.hey,
+.socials,
+.twitter,
+.warpcast {
+  position: relative;
+  display: inline-block;
+}
+.socials {
+  font-weight: 500;
+  min-width: 63px;
+}
+.hey,
+.twitter,
+.warpcast {
+  line-height: 150%;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    #93939f;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  min-width: 53px;
+}
+.hey,
+.warpcast {
+  min-width: 72px;
+}
+.hey {
+  min-width: 30px;
+}
+.productsColumn,
+.socialColumn,
+.socialsList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialsList {
+  gap: var(--gap-xs);
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.productsColumn,
+.socialColumn {
+  gap: var(--gap-5xl);
+}
+.productsColumn {
+  width: 199.2px;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 199.2px;
+  gap: var(--gap-xl);
+}
+.analytics,
+.resources {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.resources {
+  width: 91px;
+}
+.analytics {
+  min-width: 81px;
+}
+.resourcesLinks {
+  width: 242px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.helpCentre {
+  min-width: 91px;
+}
+.blog,
+.helpCentre,
+.mediaKit,
+.raiseATicket {
+  position: relative;
+  line-height: 150%;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    #93939f;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.raiseATicket {
+  white-space: pre-wrap;
+  min-width: 110px;
+}
+.blog,
+.mediaKit {
+  min-width: 34px;
+}
+.mediaKit {
+  min-width: 72px;
+}
+.helpCenterItems,
+.helpCenterLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.helpCenterItems {
+  align-self: stretch;
+  gap: var(--gap-xs);
+}
+.helpCenterLinks {
+  width: 110px;
+  padding: var(--padding-6xs-3) 0 0;
+  box-sizing: border-box;
+}
+.coingecko,
+.coinmarket,
+.dune,
+.nansen {
+  position: relative;
+  line-height: 150%;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    #93939f;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-width: 81px;
+}
+.coinmarket,
+.dune,
+.nansen {
+  min-width: 87px;
+}
+.dune,
+.nansen {
+  min-width: 40px;
+}
+.nansen {
+  min-width: 58px;
+}
+.analyticsColumn,
+.dataProviders {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.analyticsColumn {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.resourcesColumn {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mid-7);
+  min-width: 161px;
+}
+.footer,
+.footerColumnOne,
+.footerColumns,
+.resourcesColumn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerColumnOne {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-29xl-5);
+}
+.footer,
+.footerColumns {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footerColumns {
+  width: 495.7px;
+  flex-direction: column;
+  padding: var(--padding-3xs-8) 0 0;
+  min-width: 495.7px;
+}
+.footer {
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-49xl-1) var(--padding-53xl) var(--padding-259xl-8);
+  gap: var(--gap-181xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-geist);
+}
+@media screen and (max-width: 1125px) {
+  .footerColumns {
+    flex: 1;
+  }
+  .footer {
+    flex-wrap: wrap;
+    gap: var(--gap-81xl);
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .productsColumn {
+    flex: 1;
+  }
+  .footerColumnOne {
+    flex-wrap: wrap;
+    gap: var(--gap-5xl);
+  }
+  .footerColumns {
+    min-width: 100%;
+  }
+  .footer {
+    gap: var(--gap-31xl);
+    padding-top: var(--padding-25xl);
+    padding-bottom: var(--padding-162xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer {
+    gap: var(--gap-6xl);
+  }
+}

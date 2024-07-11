@@ -1,0 +1,273 @@
+.logoIcon {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.usdtUsdcPairs {
+  margin: 0;
+  width: 341px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 150%;
+  font-family: var(--font-inter);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    #878794;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pairsContent,
+.pairsDescriptionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.pairsDescriptionContainer {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.pairsContent {
+  flex: 1;
+  gap: var(--gap-5xl);
+  min-width: 257px;
+}
+.securityIconContainer {
+  width: 96px;
+  height: 96px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.security {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.securityTitleContainer {
+  width: 359.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.loremIpsumDolor1 {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    #878794;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+}
+.securityDescriptionContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-inter);
+}
+.pairsContentParent,
+.securityIconContainerParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-5);
+  min-width: 263px;
+  max-width: 100%;
+}
+.pairsContentParent {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-26xl-5);
+  min-width: 551px;
+}
+.onrampSpacerIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.tetherUsdtLogo1Icon,
+.usdCoinUsdcLogo1Icon {
+  height: 37.8px;
+  position: absolute;
+  margin: 0 !important;
+  object-fit: contain;
+}
+.tetherUsdtLogo1Icon {
+  width: 41.7px;
+  right: 23.1px;
+  bottom: 25.4px;
+  z-index: 1;
+}
+.usdCoinUsdcLogo1Icon {
+  width: 37.8px;
+  top: 10.8px;
+  right: -1.1px;
+  z-index: 2;
+}
+.onrampContent {
+  width: 165px;
+  height: 96px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.easyOnramp {
+  margin: 0;
+  width: 341px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.loremIpsumDolor2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 150%;
+  font-family: var(--font-inter);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    #878794;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.onrampDescriptionContainer {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.onrampContentParent,
+.onrampDescriptionContainer,
+.section1 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.onrampContentParent {
+  width: 396.5px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  min-width: 396.5px;
+}
+.section1 {
+  margin-left: -1px;
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-42xl) var(--padding-53xl) var(--padding-33xl);
+  box-sizing: border-box;
+  gap: var(--gap-32xl-5);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-geist);
+}
+@media screen and (max-width: 1125px) {
+  .onrampContentParent {
+    flex: 1;
+  }
+  .section1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .security,
+  .usdtUsdcPairs {
+    font-size: var(--font-size-7xl);
+    line-height: 31px;
+  }
+  .pairsContentParent {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .easyOnramp {
+    font-size: var(--font-size-7xl);
+    line-height: 31px;
+  }
+  .onrampContentParent {
+    min-width: 100%;
+  }
+  .section1 {
+    gap: var(--gap-7xl);
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .security,
+  .usdtUsdcPairs {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .pairsContentParent {
+    gap: var(--gap-4xl);
+  }
+  .easyOnramp {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .section1 {
+    padding-top: var(--padding-21xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
