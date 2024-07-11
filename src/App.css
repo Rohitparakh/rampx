@@ -1,0 +1,13 @@
+.animatedJiggle {
+    animation: bounce 2s infinite alternate; /* Animation: 2s duration, infinite loop, alternate direction */
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-15px, -15px); /* Move the image slightly left and up */
+    }
+  }
+  

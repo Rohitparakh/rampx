@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import styles from "./Section2.module.css";
 import plusImg from "./frame-1.svg";
 import minusImg from "./minus.png";
+import TypeWriterText from './TypeWriterText';
 const Section2 = ({ className = "" }) => {
 
   const faqData = [
@@ -22,8 +23,10 @@ const Section2 = ({ className = "" }) => {
     <section className={[styles.section4, className].join(" ")}>
       <h1 className={styles.frequentlyAskedQuestions}>
         <span className={styles.frequentlyAskedQuestionsTxtContainer}>
-          <p className={styles.frequentlyAsked}>{`Frequently Asked `}</p>
-          <p className={styles.questions}>Questions</p>
+          {/* <p className={styles.frequentlyAsked}>{`Frequently Asked `}</p> */}
+          <p className={styles.questions}>
+            <TypeWriterText text="Frequently Asked Questions"></TypeWriterText>
+            </p>
         </span>
       </h1>
       <div className={styles.fAQContainer}>

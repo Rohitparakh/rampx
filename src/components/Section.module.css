@@ -58,8 +58,11 @@
 }
 .chartElementThree {
   position: absolute;
-  right: -9.1px;
-  bottom: -46.8px;
+  /* right: -9.1px; */
+  /* bottom: -46.8px; */
+  top:45%;
+  left:43%;
+  transform: translate(-50%,-50%);
   border-radius: 12.31px;
   width: 82.1px;
   height: 82.1px;
@@ -68,10 +71,10 @@
 }
 
 @media(max-width:450px){
-  .chartElementThree{
+  /* .chartElementThree{
     right: -54.1px;
     bottom: -144.8px;
-  }
+  } */
 }
 .chartElementFive,
 .chartElementFour,
@@ -154,6 +157,7 @@
   justify-content: flex-start;
 }
 .chartContainer {
+  position: relative;
   margin-left: -176px;
   width: 896px;
   align-items: flex-end;

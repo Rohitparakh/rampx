@@ -6,6 +6,7 @@ import Section2 from "../components/Section2";
 import Footer from "../components/Footer";
 import styles from "./Rampx.module.css";
 import HeroSection from "../components/HeroSection";
+import TypeWriterText from "../components/TypeWriterText";
 
 const Rampx = () => {
   return (
@@ -19,7 +20,8 @@ const Rampx = () => {
       <section className={styles.section2Parent}>
         <div className={styles.section2}>
           <div className={styles.priceFeedContainer}>
-            <h1 className={styles.realTimePrice}>Real time Price Feed</h1>
+            <h1 className={styles.realTimePrice}>
+              <TypeWriterText text="Real time Price Feed"></TypeWriterText></h1>
             <div className={styles.loremIpsumDolor}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -31,17 +33,19 @@ const Rampx = () => {
         </div>
         <Section />
       </section>
-      <section className={styles.backerIconsParent}>
-        <div className={styles.backerIcons} />
-        <div className={styles.backerIcons1} />
-        <div className={styles.backerIcons2} />
-        <div className={styles.backerIcons3} />
-        <div className={styles.backerIcons4} />
-        <div className={styles.backerIcons5} />
+      <section className={[styles.backerIconsParent, "animatedJiggle"].join(" ")}>
+        <div className={[styles.backerIcons, "animatedJiggle"].join(" ")} />
+        <div className={[styles.backerIcons1, "animatedJiggle"].join(" ")} />
+        <div className={[styles.backerIcons2, "animatedJiggle"].join(" ")} />
+        <div className={[styles.backerIcons3, "animatedJiggle"].join(" ")} />
+        <div className={[styles.backerIcons4, "animatedJiggle"].join(" ")} />
+        <div className={[styles.backerIcons5, "animatedJiggle"].join(" ")} />
       </section>
       <div className={styles.backersDescriptionContainer}>
         <div className={styles.backersDescriptionInner}>
-          <h1 className={styles.backedByTop}>Backed by Top Dawgs</h1>
+          <h1 className={styles.backedByTop}>
+            <TypeWriterText text="Backed by Top Dawgs"></TypeWriterText>
+            </h1>
           <div className={styles.loremIpsumDolor1}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

@@ -6,6 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import Rampx from "./pages/Rampx";
+import './App.css';
 
 function App() {
   const action = useNavigationType();

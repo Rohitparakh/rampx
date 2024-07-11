@@ -7,6 +7,7 @@ import discordLogo from './discord.png';
 import twitterLogo from './twitter.png';
 import farcasterLogo from './farcaster.png';
 import backedByLogo from './backedBy.png';
+import TypeWriterText from "./TypeWriterText";
 
 const HeroSection = ({ className = "" }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +24,7 @@ const HeroSection = ({ className = "" }) => {
     }
   }, [isOpen]);
 
+  
   return (
     <section style={{background:"/Frame_1.png"}} className={[styles.heroWrapper, className,"bg"].join(" ")}>
       <header className={styles.header}>
@@ -87,7 +89,7 @@ const HeroSection = ({ className = "" }) => {
 
       <div>
         <h1 className={styles.heroHeading}>
-          Trade Perpetuals, Seamlessly
+        <TypeWriterText text="Trade Perpetuals, Seamlessly" />          
         </h1>
 
         <div className={styles.heroParagraph}>
@@ -113,9 +115,9 @@ const HeroSection = ({ className = "" }) => {
         </Button>
 
         <div className={styles.backedByBadge}>
-          <div className={styles.backedBy}>
+          <div className={[styles.backedBy , "animatedJiggle"].join(" ")}>
             <span>Backed By</span>
-            <img src={backedByLogo} height="64" width="64" alt="Backed By"/>
+            <img c src={backedByLogo} height="64" width="64" alt="Backed By"/>
           </div>
         </div>
       </div>

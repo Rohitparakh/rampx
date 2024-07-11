@@ -4,7 +4,7 @@ import styles from "./CopyTradeContainer.module.css";
 const CopyTradeContainer = ({ className = "" }) => {
   return (
     <div className={[styles.copyTradeContainer, className].join(" ")}>
-      <div className={styles.bTCContainer}>
+      <div className={[styles.bTCContainer, "animatedJiggle"].join(" ")}>
         <h1 className={styles.btc}>BTC</h1>
         <div className={styles.bTCContainerInner}>
           <img
@@ -25,22 +25,22 @@ const CopyTradeContainer = ({ className = "" }) => {
           <img className={styles.frameInner} alt="" src="/vector-52.svg" />
         </div>
         <img
-          className={styles.copyTradeDescriptionContainChild}
+          className={[styles.copyTradeDescriptionContainChild, "animatedJiggle"].join(" ")}
           alt=""
           src="/frame-1618873054@2x.png"
         />
         <img
-          className={styles.copyTradeDescriptionContainItem}
+          className={[styles.copyTradeDescriptionContainItem, "animatedJiggle"].join(" ")}
           alt=""
           src="/frame-1618873055@2x.png"
         />
         <img
-          className={styles.copyTradeDescriptionContainInner}
+          className={[styles.copyTradeDescriptionContainInner, "animatedJiggle"].join(" ")}
           alt=""
           src="/frame-1618873057@2x.png"
         />
         <img
-          className={styles.frameIcon}
+          className={[styles.frameIcon, "animatedJiggle"].join(" ")}
           alt=""
           src="/frame-1618873058@2x.png"
         />
