@@ -8,7 +8,7 @@ const Section = ({ className = "" }) => {
       <img className={styles.gridIcon} alt="" src="/grid-1.svg" />
       <div className={styles.copyTradeParent}>
         <h1 className={styles.copyTrade}>
-          <TypeWriterText text= "Copy Trade"></TypeWriterText></h1>
+          <TypeWriterText text= "Copy Trade" isLoop={false}></TypeWriterText></h1>
         <div className={styles.loremIpsumDolor}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

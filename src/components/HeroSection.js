@@ -89,7 +89,8 @@ const HeroSection = ({ className = "" }) => {
 
       <div>
         <h1 className={styles.heroHeading}>
-        <TypeWriterText text="Trade Perpetuals, Seamlessly" />          
+        <TypeWriterText text="Trade Perpetuals," isLoop={true} />          
+        <TypeWriterText text="Seamlessly" delay={2700} isLoop={true}/>          
         </h1>
 
         <div className={styles.heroParagraph}>

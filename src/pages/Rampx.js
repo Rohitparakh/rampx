@@ -21,7 +21,7 @@ const Rampx = () => {
         <div className={styles.section2}>
           <div className={styles.priceFeedContainer}>
             <h1 className={styles.realTimePrice}>
-              <TypeWriterText text="Real time Price Feed"></TypeWriterText></h1>
+              <TypeWriterText text="Real time Price Feed" isLoop={false}></TypeWriterText></h1>
             <div className={styles.loremIpsumDolor}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -44,7 +44,7 @@ const Rampx = () => {
       <div className={styles.backersDescriptionContainer}>
         <div className={styles.backersDescriptionInner}>
           <h1 className={styles.backedByTop}>
-            <TypeWriterText text="Backed by Top Dawgs"></TypeWriterText>
+            <TypeWriterText text="Backed by Top Dawgs" isLoop={false}></TypeWriterText>
             </h1>
           <div className={styles.loremIpsumDolor1}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

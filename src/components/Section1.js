@@ -18,7 +18,7 @@ const Section1 = ({ className = "" }) => {
           />
           <div className={styles.pairsDescriptionContainer}>
             <h1 className={styles.usdtUsdcPairs}>
-              <TypeWriterText text="USDT-USDC Pairs"></TypeWriterText>
+              <TypeWriterText text="USDT-USDC Pairs" isLoop={false}></TypeWriterText>
               </h1>
             <div className={styles.loremIpsumDolor}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -37,7 +37,7 @@ const Section1 = ({ className = "" }) => {
           />
           <div className={styles.securityTitleContainer}>
             <h1 className={styles.security}>
-              <TypeWriterText text="Security"></TypeWriterText>
+              <TypeWriterText text="Security" isLoop={false}></TypeWriterText>
             </h1>
           </div>
           <div className={styles.securityDescriptionContainer}>
@@ -71,7 +71,7 @@ const Section1 = ({ className = "" }) => {
         </div>
         <div className={styles.onrampDescriptionContainer}>
           <h1 className={styles.easyOnramp}>
-            <TypeWriterText text="Easy onramp"></TypeWriterText>
+            <TypeWriterText text="Easy onramp" isLoop={false}></TypeWriterText>
           </h1>
           <div className={styles.loremIpsumDolor2}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

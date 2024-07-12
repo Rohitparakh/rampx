@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import styles from "./CopyTradeContainer.module.css";
 
-const CopyTradeContainer = ({ className = "" }) => {
+const   CopyTradeContainer = ({ className = "" }) => {
   return (
     <div className={[styles.copyTradeContainer, className].join(" ")}>
       <div className={[styles.bTCContainer, "animatedJiggle"].join(" ")}>
