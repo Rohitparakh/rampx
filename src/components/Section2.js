@@ -25,7 +25,7 @@ const Section2 = ({ className = "" }) => {
         <span className={styles.frequentlyAskedQuestionsTxtContainer}>
           {/* <p className={styles.frequentlyAsked}>{`Frequently Asked `}</p> */}
           <p className={styles.questions}>
-            <TypeWriterText text="Frequently Asked Questions"></TypeWriterText>
+            Frequently Asked Questions
             </p>
         </span>
       </h1>

@@ -41,7 +41,11 @@ html, body {
   .header {
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-between;    
+  }
+
+  header img.logo{
+    margin-left: 80px;
   }
   
   .nav {
@@ -81,8 +85,8 @@ html, body {
   
   .socialIconHolder {
     display: flex;
-    gap: 15px;
-    margin-right: 15px;
+    gap: 20px;
+    margin-right: 20px;
   }
   
   .heroHeading,

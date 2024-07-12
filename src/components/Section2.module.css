@@ -222,6 +222,7 @@
   box-sizing: border-box;
 }
 .fAQContainer {
+  flex: 1;
   width: 620px;
   flex-direction: column;
   justify-content: flex-start;
@@ -229,6 +230,13 @@
   min-width: 620px;
   font-size: var(--font-size-5xl);
   font-family: var(--font-inter);
+}
+
+@media(min-width:1025px){
+  .fAQContainer{
+  margin-left: 400px;
+
+  }
 }
 .section4 {
   margin-left: -1px;
@@ -238,10 +246,10 @@
   overflow: hidden;
   flex-direction: row;
   /* justify-content: space-between; */
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   padding: var(--padding-13xl) var(--padding-74xl) var(--padding-157xl-5)
     var(--padding-53xl);
-  gap: var(--gap-xl);
+  /* gap: var(--gap-xl); */
   text-align: left;
   font-size: var(--font-size-45xl);
   color: var(--color-white);

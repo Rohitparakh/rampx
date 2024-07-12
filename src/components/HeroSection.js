@@ -47,7 +47,7 @@ const HeroSection = ({ className = "" }) => {
           </div>
         </div>
 
-        <img src={logo} height="45" width="130" alt="Logo"/>
+        <img src={logo} height="45" width="130" alt="Logo" className={styles.logo}/>
 
         <nav className={styles.nav}>
           <div>
@@ -61,7 +61,7 @@ const HeroSection = ({ className = "" }) => {
           </div>
         </nav>
 
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginRight:'80px'}}>
           <div className={styles.socialIconHolder}>
             <img className={styles.twitterIcon} src={twitterLogo} alt="Twitter"/>
             <img className={styles.discordIcon} src={discordLogo} alt="Discord"/>
