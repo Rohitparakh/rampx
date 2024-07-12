@@ -50,6 +50,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
+  z-index: 2;
 }
 .priceFeedContainer {
   width: 396px;
@@ -85,7 +86,31 @@
   font-size: var(--font-size-13xl);
   color: var(--color-white);
   font-family: var(--font-geist);
+  position: relative;
+  z-index: 1;
 }
+
+.section2Parent::before{
+  content:'';
+  width:40px;
+  height: 80px;
+  background-color: #181818;
+  position: absolute;
+  left:0;
+  top: -40px;
+  z-index:1;
+  }
+  
+  .section2Parent::after{
+  content:'';
+  width:40px;
+  height: 40px;
+  background-color: #181818;
+  position: absolute;
+  right:0;
+  top: -40px;
+  z-index:1;
+  }
 .backerIcons,
 .backerIcons1,
 .backerIcons2,

@@ -129,11 +129,13 @@
   gap: var(--gap-5xl);
 }
 .productsColumn {
-  width: 199.2px;
+  /* width: 199.2px; */
   flex-direction: row;
   justify-content: space-between;
-  min-width: 199.2px;
-  gap: var(--gap-xl);
+  /* min-width: 199.2px; */
+  /* gap: var(--gap-xl); */
+  gap: 50px;
+
 }
 .analytics,
 .resources {
@@ -261,7 +263,8 @@
 .footerColumnOne {
   align-self: stretch;
   flex-direction: row;
-  gap: var(--gap-29xl-5);
+  /* gap: var(--gap-29xl-5); */
+  gap: 50px;
 }
 .footer,
 .footerColumns {
