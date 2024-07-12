@@ -41,9 +41,9 @@ const HeroSection = ({ className = "" }) => {
             <li><a href="#">Blog</a></li>
           </ul>
           <div className={styles.mobileSocialIcons}>
-            <a href="#"><img src={twitterLogo} alt="Twitter"/></a>
-            <a href="#"><img src={discordLogo} alt="Discord"/></a>
-            <a href="#"><img src={farcasterLogo} alt="Farcaster"/></a>
+            <a href="#"><img src={twitterLogo} className={styles.twitterIcon} alt="Twitter"/></a>
+            <a href="#"><img src={discordLogo} className={styles.discordIcon} alt="Discord"/></a>
+            <a href="#"><img src={farcasterLogo} className={styles.farcasterIcon} alt="Farcaster"/></a>
           </div>
         </div>
 
@@ -63,9 +63,9 @@ const HeroSection = ({ className = "" }) => {
 
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
           <div className={styles.socialIconHolder}>
-            <img className={styles.socialIcons} src={twitterLogo} alt="Twitter"/>
-            <img className={styles.socialIcons} src={discordLogo} alt="Discord"/>
-            <img className={styles.socialIcons} src={farcasterLogo} alt="Farcaster"/>
+            <img className={styles.twitterIcon} src={twitterLogo} alt="Twitter"/>
+            <img className={styles.discordIcon} src={discordLogo} alt="Discord"/>
+            <img className={styles.farcasterIcon} src={farcasterLogo} alt="Farcaster"/>
           </div>
           <Button
             className={styles.frameChild}

@@ -1,6 +1,9 @@
 import PropTypes from "prop-types";
 import styles from "./Section1.module.css";
 import TypeWriterText from "./TypeWriterText";
+import usdcUSDT from './usdcUSDT.png';
+import security from './security.png';
+import onramp from './onramp.png';
 
 const Section1 = ({ className = "" }) => {
   return (
@@ -52,18 +55,18 @@ const Section1 = ({ className = "" }) => {
           <img
             className={[styles.onrampSpacerIcon, "animatedJiggle"].join(" ")}
             alt=""
-            src="/onramp-spacer.svg"
+            src={onramp}
           />
           <img
             className={[styles.tetherUsdtLogo1Icon, "animatedJiggle"].join(" ")}
             alt=""
-            src="/tetherusdtlogo-1@2x.png"
+            src={usdcUSDT}
           />
           <img
             className={[styles.usdCoinUsdcLogo1Icon, "animatedJiggle"].join(" ")}
             loading="lazy"
             alt=""
-            src="/usdcoinusdclogo-1@2x.png"
+            src={security}
           />
         </div>
         <div className={styles.onrampDescriptionContainer}>

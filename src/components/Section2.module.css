@@ -246,6 +246,30 @@
   font-size: var(--font-size-45xl);
   color: var(--color-white);
   font-family: var(--font-geist);
+  position: relative;
+overflow: visible;
+
+}
+.section4::before{
+content:'';
+width:40px;
+height: 80px;
+background-color: #181818;
+position: absolute;
+left:0;
+bottom: -40px;
+z-index:1;
+}
+
+.section4::after{
+content:'';
+width:40px;
+height: 80px;
+background-color: #181818;
+position: absolute;
+right:0;
+bottom: -40px;
+z-index:1;
 }
 @media screen and (max-width: 1125px) {
   .frequentlyAskedQuestions {

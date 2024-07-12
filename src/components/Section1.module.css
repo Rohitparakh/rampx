@@ -208,7 +208,9 @@
 .section1 {
   margin-left: -1px;
   align-self: stretch;
-  border-radius: var(--br-21xl);
+  /* border-radius: var(--br-21xl); */
+  border-top-left-radius: var(--br-21xl);
+  border-top-right-radius: var(--br-21xl);
   background-color: var(--color-gray-200);
   overflow: hidden;
   flex-direction: row;

@@ -1,8 +1,13 @@
 body{
   overflow-x: hidden !important;
 }
+
+html, body {
+  background-color: #212121;
+}
+
 .heroWrapper {
-    background-color: #141111;
+    background-color: #141111 !important;
     /* border-radius: 40px; */
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
@@ -36,21 +41,42 @@ body{
   .header {
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;    
   }
   
   .nav {
     display: flex;
     gap: 35px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .nav{
+      position: relative;
+      left: 0;
+      transform: translateX(0);
+    }
   }
   
   .nav a {
     font-size: 18px;
   }
   
-  .socialIcons {
+  .twitterIcon {
     height: 24px;
-    width: 26px;
+    width: 24px;
+  }
+  
+  .discordIcon {
+    height: 24px;
+    width: 30.88px;
+  }
+  
+  .farcasterIcon {
+    height: 24px;
+    width: 26.48px;
   }
   
   .socialIconHolder {
