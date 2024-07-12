@@ -1,5 +1,5 @@
 .animatedJiggle {
-    animation: bounce 2s infinite alternate; /* Animation: 2s duration, infinite loop, alternate direction */
+    /* animation: bounce 2s infinite alternate;  */
   }
   
   @keyframes bounce {

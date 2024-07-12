@@ -173,7 +173,8 @@
 .section3 {
   /* width: 720px; */
   flex: 1;
-  border-radius: var(--br-5xl);
+  /* border-radius: var(--br-5xl); */
+  border-bottom-right-radius: var(--br-5xl);
   background-color: var(--color-gray-100);
   overflow: hidden;
   align-items: flex-start;
