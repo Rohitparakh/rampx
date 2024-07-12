@@ -94,8 +94,11 @@
   position: absolute;
   top: 43.5px;
   left: 0;
-  width: 736px;
+  /* width: 736px; */
   height: 433.9px;
+  width: 100%;
+  max-width: 736px;
+  overflow: hidden;
 }
 .copyTradeDescriptionContainChild {
   position: absolute;

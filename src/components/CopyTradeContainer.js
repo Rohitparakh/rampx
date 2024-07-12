@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import styles from "./CopyTradeContainer.module.css";
-
+import ImageReveal from './ImageReveal';
+import chartImage from './vector-52.svg';
 const   CopyTradeContainer = ({ className = "" }) => {
   return (
     <div className={[styles.copyTradeContainer, className].join(" ")}>
@@ -22,7 +23,8 @@ const   CopyTradeContainer = ({ className = "" }) => {
         <img className={styles.gridIcon} alt="" src="/grid.svg" />
         <div className={styles.vectorParent}>
           {/* <img className={styles.frameItem} alt="" src="/vector-51.svg" /> */}
-          <img className={styles.frameInner} alt="" src="/vector-52.svg" />
+          <ImageReveal classes={styles.frameInner} src={chartImage} alt="" />
+          {/* <img className={styles.frameInner} alt="" src="/vector-52.svg" /> */}
         </div>
         <img
           className={[styles.copyTradeDescriptionContainChild, "animatedJiggle"].join(" ")}
