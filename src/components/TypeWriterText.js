@@ -68,7 +68,7 @@ const TypeWriterText = ({ text, isLoop = false, delay = 2000 }) => {
   }, [startTyping, text, isLoop]);
 
   return (
-    <div ref={ref} style={{ minHeight: '50px' }}>
+    <div ref={ref} style={{ minHeight: '10px' }}>
       {displayedText}
     </div>
   );
