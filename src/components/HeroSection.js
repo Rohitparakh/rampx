@@ -61,7 +61,7 @@ const HeroSection = ({ className = "" }) => {
           </div>
         </nav>
 
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginRight:'80px'}}>
+        <div className={styles.navRightContainer}>
           <div className={styles.socialIconHolder}>
             <img className={styles.twitterIcon} src={twitterLogo} alt="Twitter"/>
             <img className={styles.discordIcon} src={discordLogo} alt="Discord"/>

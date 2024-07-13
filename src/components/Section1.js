@@ -49,8 +49,7 @@ const Section1 = ({ className = "" }) => {
             </div>
           </div>
         </div>
-      </div>
-      <div className={styles.onrampContentParent}>
+        <div className={styles.onrampContentParent}>
         <div className={styles.onrampContent}>
           <img
             className={[styles.onrampSpacerIcon, "animatedJiggle"].join(" ")}
@@ -81,6 +80,38 @@ const Section1 = ({ className = "" }) => {
           </div>
         </div>
       </div>
+      </div>
+      {/* <div className={styles.onrampContentParent}>
+        <div className={styles.onrampContent}>
+          <img
+            className={[styles.onrampSpacerIcon, "animatedJiggle"].join(" ")}
+            alt=""
+            src={onramp}
+          />
+          <img
+            className={[styles.tetherUsdtLogo1Icon, "animatedJiggle"].join(" ")}
+            alt=""
+            src={usdcUSDT}
+          />
+          <img
+            className={[styles.usdCoinUsdcLogo1Icon, "animatedJiggle"].join(" ")}
+            loading="lazy"
+            alt=""
+            src={security}
+          />
+        </div>
+        <div className={styles.onrampDescriptionContainer}>
+          <h1 className={styles.easyOnramp}>
+            <TypeWriterText text="Easy onramp" isLoop={false}></TypeWriterText>
+          </h1>
+          <div className={styles.loremIpsumDolor2}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </div>
+        </div>
+      </div> */}
     </section>
   );
 };

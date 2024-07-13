@@ -43,10 +43,11 @@ html, body {
     display: flex;
     justify-content: space-between;    
   }
-
+@media(min-width:768px){
   header img.logo{
     margin-left: 80px;
   }
+}
   
   .nav {
     display: flex;
@@ -227,3 +228,15 @@ html, body {
     }
   }
   
+  .navRightContainer{
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center'; 
+    margin-right:'80px';
+  }
+
+  @media(max-width: 768px){
+    .navRightContainer{
+      margin-right: 20px;
+    }
+  }
