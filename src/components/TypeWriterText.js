@@ -49,7 +49,7 @@ const TypeWriterText = ({ text, isLoop = false, delay = 2000 }) => {
             if (isLoop) {
               setTimeout(() => {
                 setDisplayedText(''); // Reset displayedText for loop
-                index = 0;
+                index = -1;
                 startTypingFunction(); // Start typing again for loop
               }, delay); // Adjust delay before looping
             }
