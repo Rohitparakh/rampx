@@ -41,7 +41,7 @@ const TypeWriterText = ({ text, isLoop = false, delay = 2000 }) => {
       let index = -1;
       const timer = setInterval(() => {
         setDisplayedText((prevText) => {
-          if (index < text.length+1) {
+          if (index < text.length) {
             return prevText + text.charAt(index);
           } else {
             clearInterval(timer);
