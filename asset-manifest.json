@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rampx/static/css/main.999e7008.css",
-    "main.js": "/rampx/static/js/main.1558ffeb.js",
+    "main.css": "/rampx/static/css/main.2b70c467.css",
+    "main.js": "/rampx/static/js/main.0e518ccb.js",
     "static/media/SolutionCardThree.png": "/rampx/static/media/SolutionCardThree.21c5b843cb8c18f90492.png",
     "static/media/spring.png": "/rampx/static/media/spring.9bff7c5ff0596a179fe5.png",
     "static/media/heroLight.png": "/rampx/static/media/heroLight.6426dce82e383494e2b8.png",
@@ -28,11 +28,11 @@
     "static/media/metricsContainer.png": "/rampx/static/media/metricsContainer.ef0fcaa17f28a10ea684.png",
     "static/media/amex.png": "/rampx/static/media/amex.7c3f76159102a4b21447.png",
     "index.html": "/rampx/index.html",
-    "main.999e7008.css.map": "/rampx/static/css/main.999e7008.css.map",
-    "main.1558ffeb.js.map": "/rampx/static/js/main.1558ffeb.js.map"
+    "main.2b70c467.css.map": "/rampx/static/css/main.2b70c467.css.map",
+    "main.0e518ccb.js.map": "/rampx/static/js/main.0e518ccb.js.map"
   },
   "entrypoints": [
-    "static/css/main.999e7008.css",
-    "static/js/main.1558ffeb.js"
+    "static/css/main.2b70c467.css",
+    "static/js/main.0e518ccb.js"
   ]
 }
