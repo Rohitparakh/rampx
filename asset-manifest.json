@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/rampx/static/css/main.af57cf9d.css",
+    "main.js": "/rampx/static/js/main.13ba3d9c.js",
+    "static/media/SolutionCardThree.png": "/rampx/static/media/SolutionCardThree.21c5b843cb8c18f90492.png",
+    "static/media/spring.png": "/rampx/static/media/spring.9bff7c5ff0596a179fe5.png",
+    "static/media/heroLight.png": "/rampx/static/media/heroLight.6426dce82e383494e2b8.png",
+    "static/media/twitterPost.png": "/rampx/static/media/twitterPost.3ca1b6f2437a30692a9b.png",
+    "static/media/2.png": "/rampx/static/media/2.5131b1f1267f3faf0ab0.png",
+    "static/media/SolutionCardTwo.png": "/rampx/static/media/SolutionCardTwo.918f14f572aa22760a1b.png",
+    "static/media/solutionCardOne.png": "/rampx/static/media/solutionCardOne.003d80763501b1ee2fd5.png",
+    "static/media/9.png": "/rampx/static/media/9.c4af44b28d7545be80f9.png",
+    "static/media/footerLogo.png": "/rampx/static/media/footerLogo.85b9902e7633caa99645.png",
+    "static/media/6.png": "/rampx/static/media/6.f8a1ab558da8355c2c10.png",
+    "static/media/8.png": "/rampx/static/media/8.e14aca106ba7092bc3f8.png",
+    "static/media/7.png": "/rampx/static/media/7.97e9d206477c9b3e32dc.png",
+    "static/media/1.png": "/rampx/static/media/1.f9c4a7cdbe071c04b516.png",
+    "static/media/5.png": "/rampx/static/media/5.7a44e1f3a6f77c4334fa.png",
+    "static/media/twitterPfp.png": "/rampx/static/media/twitterPfp.051a5f1dbb327a82acca.png",
+    "static/media/3.png": "/rampx/static/media/3.346d76a0436f241c886c.png",
+    "static/media/4.png": "/rampx/static/media/4.b92e4a7f6c4298f3c9fd.png",
+    "static/media/ponkeSwap.png": "/rampx/static/media/ponkeSwap.52128d12acdbf8893236.png",
+    "static/media/twitterLight.png": "/rampx/static/media/twitterLight.bd049d72637ee9b565c2.png",
+    "static/media/skiIcon.png": "/rampx/static/media/skiIcon.023bf2520ae923ab228d.png",
+    "static/media/twitter.png": "/rampx/static/media/twitter.a387a34d6060bd48866f.png",
+    "static/media/discordLight.png": "/rampx/static/media/discordLight.63359c34de2ccf9d499f.png",
+    "static/media/discord.png": "/rampx/static/media/discord.97ffd97a03751a3e6a71.png",
+    "static/media/metricsContainer.png": "/rampx/static/media/metricsContainer.ef0fcaa17f28a10ea684.png",
+    "static/media/amex.png": "/rampx/static/media/amex.7c3f76159102a4b21447.png",
+    "index.html": "/rampx/index.html",
+    "main.af57cf9d.css.map": "/rampx/static/css/main.af57cf9d.css.map",
+    "main.13ba3d9c.js.map": "/rampx/static/js/main.13ba3d9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af57cf9d.css",
+    "static/js/main.13ba3d9c.js"
+  ]
+}
