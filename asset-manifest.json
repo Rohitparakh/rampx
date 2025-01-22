@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/rampx/static/css/main.e3029603.css",
-    "main.js": "/rampx/static/js/main.6e1d04cf.js",
+    "main.css": "/rampx/static/css/main.f4e93652.css",
+    "main.js": "/rampx/static/js/main.f89ded67.js",
     "static/media/SolutionCardThreeBg.png": "/rampx/static/media/SolutionCardThreeBg.32db0b181814d0fc329f.png",
     "static/media/spring.png": "/rampx/static/media/spring.9bff7c5ff0596a179fe5.png",
-    "static/media/SolutionCardThreeMain.png": "/rampx/static/media/SolutionCardThreeMain.5f7f76a19dabce1e0f52.png",
     "static/media/heroLight.png": "/rampx/static/media/heroLight.6426dce82e383494e2b8.png",
     "static/media/twitterPost.png": "/rampx/static/media/twitterPost.3ca1b6f2437a30692a9b.png",
     "static/media/2.png": "/rampx/static/media/2.5131b1f1267f3faf0ab0.png",
@@ -21,10 +20,7 @@
     "static/media/twitterPfp.png": "/rampx/static/media/twitterPfp.051a5f1dbb327a82acca.png",
     "static/media/3.png": "/rampx/static/media/3.346d76a0436f241c886c.png",
     "static/media/4.png": "/rampx/static/media/4.b92e4a7f6c4298f3c9fd.png",
-    "static/media/solutionYieldFour.png": "/rampx/static/media/solutionYieldFour.c5d5a1b57fba1bd91c9a.png",
-    "static/media/solutionYieldTwo.png": "/rampx/static/media/solutionYieldTwo.f7082cfa13dbf320ebcb.png",
     "static/media/ponkeSwap.png": "/rampx/static/media/ponkeSwap.52128d12acdbf8893236.png",
-    "static/media/solutionYieldThree.png": "/rampx/static/media/solutionYieldThree.74c62a841fa8ab914bd3.png",
     "static/media/twitterLight.png": "/rampx/static/media/twitterLight.bd049d72637ee9b565c2.png",
     "static/media/skiIcon.png": "/rampx/static/media/skiIcon.023bf2520ae923ab228d.png",
     "static/media/twitter.png": "/rampx/static/media/twitter.a387a34d6060bd48866f.png",
@@ -36,11 +32,11 @@
     "static/media/metricsContainer.png": "/rampx/static/media/metricsContainer.ef0fcaa17f28a10ea684.png",
     "static/media/amex.png": "/rampx/static/media/amex.7c3f76159102a4b21447.png",
     "index.html": "/rampx/index.html",
-    "main.e3029603.css.map": "/rampx/static/css/main.e3029603.css.map",
-    "main.6e1d04cf.js.map": "/rampx/static/js/main.6e1d04cf.js.map"
+    "main.f4e93652.css.map": "/rampx/static/css/main.f4e93652.css.map",
+    "main.f89ded67.js.map": "/rampx/static/js/main.f89ded67.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3029603.css",
-    "static/js/main.6e1d04cf.js"
+    "static/css/main.f4e93652.css",
+    "static/js/main.f89ded67.js"
   ]
 }
