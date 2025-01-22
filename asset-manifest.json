@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rampx/static/css/main.7a6ea5f8.css",
-    "main.js": "/rampx/static/js/main.cd5b163c.js",
+    "main.css": "/rampx/static/css/main.e58ee1f7.css",
+    "main.js": "/rampx/static/js/main.6e43313e.js",
     "static/media/SolutionCardThreeBg.png": "/rampx/static/media/SolutionCardThreeBg.32db0b181814d0fc329f.png",
     "static/media/spring.png": "/rampx/static/media/spring.9bff7c5ff0596a179fe5.png",
     "static/media/SolutionCardThreeMain.png": "/rampx/static/media/SolutionCardThreeMain.5f7f76a19dabce1e0f52.png",
@@ -26,14 +26,16 @@
     "static/media/twitter.png": "/rampx/static/media/twitter.a387a34d6060bd48866f.png",
     "static/media/discordLight.png": "/rampx/static/media/discordLight.63359c34de2ccf9d499f.png",
     "static/media/discord.png": "/rampx/static/media/discord.97ffd97a03751a3e6a71.png",
+    "static/media/dogBg.png": "/rampx/static/media/dogBg.74bce8798f569f6e15e1.png",
+    "static/media/solutionDog.png": "/rampx/static/media/solutionDog.4a37b9712d407f7f0171.png",
     "static/media/metricsContainer.png": "/rampx/static/media/metricsContainer.ef0fcaa17f28a10ea684.png",
     "static/media/amex.png": "/rampx/static/media/amex.7c3f76159102a4b21447.png",
     "index.html": "/rampx/index.html",
-    "main.7a6ea5f8.css.map": "/rampx/static/css/main.7a6ea5f8.css.map",
-    "main.cd5b163c.js.map": "/rampx/static/js/main.cd5b163c.js.map"
+    "main.e58ee1f7.css.map": "/rampx/static/css/main.e58ee1f7.css.map",
+    "main.6e43313e.js.map": "/rampx/static/js/main.6e43313e.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a6ea5f8.css",
-    "static/js/main.cd5b163c.js"
+    "static/css/main.e58ee1f7.css",
+    "static/js/main.6e43313e.js"
   ]
 }
