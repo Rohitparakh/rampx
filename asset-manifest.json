@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rampx/static/css/main.d4c0d63f.css",
+    "main.css": "/rampx/static/css/main.6723f3c9.css",
     "main.js": "/rampx/static/js/main.a3e4cc9b.js",
     "static/media/SolutionCardThreeBg.png": "/rampx/static/media/SolutionCardThreeBg.32db0b181814d0fc329f.png",
     "static/media/spring.png": "/rampx/static/media/spring.9bff7c5ff0596a179fe5.png",
@@ -32,11 +32,11 @@
     "static/media/metricsContainer.png": "/rampx/static/media/metricsContainer.ef0fcaa17f28a10ea684.png",
     "static/media/amex.png": "/rampx/static/media/amex.7c3f76159102a4b21447.png",
     "index.html": "/rampx/index.html",
-    "main.d4c0d63f.css.map": "/rampx/static/css/main.d4c0d63f.css.map",
+    "main.6723f3c9.css.map": "/rampx/static/css/main.6723f3c9.css.map",
     "main.a3e4cc9b.js.map": "/rampx/static/js/main.a3e4cc9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4c0d63f.css",
+    "static/css/main.6723f3c9.css",
     "static/js/main.a3e4cc9b.js"
   ]
 }
