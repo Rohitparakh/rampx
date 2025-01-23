@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rampx/static/css/main.bd976d13.css",
+    "main.css": "/rampx/static/css/main.26c720cc.css",
     "main.js": "/rampx/static/js/main.4a9de878.js",
     "static/media/SolutionCardThreeBg.png": "/rampx/static/media/SolutionCardThreeBg.32db0b181814d0fc329f.png",
     "static/media/spring.png": "/rampx/static/media/spring.9bff7c5ff0596a179fe5.png",
@@ -32,11 +32,11 @@
     "static/media/metricsContainer.png": "/rampx/static/media/metricsContainer.ef0fcaa17f28a10ea684.png",
     "static/media/amex.png": "/rampx/static/media/amex.7c3f76159102a4b21447.png",
     "index.html": "/rampx/index.html",
-    "main.bd976d13.css.map": "/rampx/static/css/main.bd976d13.css.map",
+    "main.26c720cc.css.map": "/rampx/static/css/main.26c720cc.css.map",
     "main.4a9de878.js.map": "/rampx/static/js/main.4a9de878.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd976d13.css",
+    "static/css/main.26c720cc.css",
     "static/js/main.4a9de878.js"
   ]
 }
