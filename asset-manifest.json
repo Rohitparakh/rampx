@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/rampx/static/css/main.76207f5d.css",
-    "main.js": "/rampx/static/js/main.a3e4cc9b.js",
+    "main.css": "/rampx/static/css/main.bb8f03c7.css",
+    "main.js": "/rampx/static/js/main.badccf71.js",
     "static/media/SolutionCardThreeBg.png": "/rampx/static/media/SolutionCardThreeBg.32db0b181814d0fc329f.png",
     "static/media/spring.png": "/rampx/static/media/spring.9bff7c5ff0596a179fe5.png",
     "static/media/heroLight.png": "/rampx/static/media/heroLight.6426dce82e383494e2b8.png",
-    "static/media/twitterPost.png": "/rampx/static/media/twitterPost.3ca1b6f2437a30692a9b.png",
+    "static/media/twitterPost.png": "/rampx/static/media/twitterPost.956b236dc5437412ccf3.png",
     "static/media/2.png": "/rampx/static/media/2.5131b1f1267f3faf0ab0.png",
     "static/media/SolutionCardTwo.png": "/rampx/static/media/SolutionCardTwo.918f14f572aa22760a1b.png",
     "static/media/solutionCardOne.png": "/rampx/static/media/solutionCardOne.003d80763501b1ee2fd5.png",
@@ -32,11 +32,11 @@
     "static/media/metricsContainer.png": "/rampx/static/media/metricsContainer.ef0fcaa17f28a10ea684.png",
     "static/media/amex.png": "/rampx/static/media/amex.7c3f76159102a4b21447.png",
     "index.html": "/rampx/index.html",
-    "main.76207f5d.css.map": "/rampx/static/css/main.76207f5d.css.map",
-    "main.a3e4cc9b.js.map": "/rampx/static/js/main.a3e4cc9b.js.map"
+    "main.bb8f03c7.css.map": "/rampx/static/css/main.bb8f03c7.css.map",
+    "main.badccf71.js.map": "/rampx/static/js/main.badccf71.js.map"
   },
   "entrypoints": [
-    "static/css/main.76207f5d.css",
-    "static/js/main.a3e4cc9b.js"
+    "static/css/main.bb8f03c7.css",
+    "static/js/main.badccf71.js"
   ]
 }
