@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rampx/static/css/main.01c814b7.css",
-    "main.js": "/rampx/static/js/main.bedd27c4.js",
+    "main.js": "/rampx/static/js/main.24f05ebb.js",
     "static/media/SolutionCardThreeBg.png": "/rampx/static/media/SolutionCardThreeBg.32db0b181814d0fc329f.png",
     "static/media/spring.png": "/rampx/static/media/spring.9bff7c5ff0596a179fe5.png",
     "static/media/heroLight.png": "/rampx/static/media/heroLight.6426dce82e383494e2b8.png",
@@ -10,8 +10,8 @@
     "static/media/SolutionCardTwo.png": "/rampx/static/media/SolutionCardTwo.918f14f572aa22760a1b.png",
     "static/media/solutionCardOne.png": "/rampx/static/media/solutionCardOne.003d80763501b1ee2fd5.png",
     "static/media/9.png": "/rampx/static/media/9.c4af44b28d7545be80f9.png",
-    "static/media/footerLogo.png": "/rampx/static/media/footerLogo.85b9902e7633caa99645.png",
     "static/media/6.png": "/rampx/static/media/6.f8a1ab558da8355c2c10.png",
+    "static/media/footerLogo.png": "/rampx/static/media/footerLogo.0e98fda2d558bc4b6ad8.png",
     "static/media/8.png": "/rampx/static/media/8.e14aca106ba7092bc3f8.png",
     "static/media/7.png": "/rampx/static/media/7.97e9d206477c9b3e32dc.png",
     "static/media/solutionDog.png": "/rampx/static/media/solutionDog.aaf55240d88f0304b1bd.png",
@@ -35,10 +35,10 @@
     "static/media/amex.png": "/rampx/static/media/amex.7c3f76159102a4b21447.png",
     "index.html": "/rampx/index.html",
     "main.01c814b7.css.map": "/rampx/static/css/main.01c814b7.css.map",
-    "main.bedd27c4.js.map": "/rampx/static/js/main.bedd27c4.js.map"
+    "main.24f05ebb.js.map": "/rampx/static/js/main.24f05ebb.js.map"
   },
   "entrypoints": [
     "static/css/main.01c814b7.css",
-    "static/js/main.bedd27c4.js"
+    "static/js/main.24f05ebb.js"
   ]
 }
