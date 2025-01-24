@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rampx/static/css/main.920104d8.css",
-    "main.js": "/rampx/static/js/main.197403c8.js",
+    "main.css": "/rampx/static/css/main.bde49bfa.css",
+    "main.js": "/rampx/static/js/main.8a1618e0.js",
     "static/media/SolutionCardThreeBg.png": "/rampx/static/media/SolutionCardThreeBg.32db0b181814d0fc329f.png",
     "static/media/spring.png": "/rampx/static/media/spring.9bff7c5ff0596a179fe5.png",
     "static/media/heroLight.png": "/rampx/static/media/heroLight.6426dce82e383494e2b8.png",
@@ -21,7 +21,6 @@
     "static/media/twitterPfp.png": "/rampx/static/media/twitterPfp.051a5f1dbb327a82acca.png",
     "static/media/footerLogo.png": "/rampx/static/media/footerLogo.bb1fa63fe19383fce844.png",
     "static/media/3.png": "/rampx/static/media/3.346d76a0436f241c886c.png",
-    "static/media/4.png": "/rampx/static/media/4.b92e4a7f6c4298f3c9fd.png",
     "static/media/twitterLight.png": "/rampx/static/media/twitterLight.4b1ee65d35a15364d1d1.png",
     "static/media/ponkeSwap.png": "/rampx/static/media/ponkeSwap.52128d12acdbf8893236.png",
     "static/media/skiIcon.png": "/rampx/static/media/skiIcon.023bf2520ae923ab228d.png",
@@ -35,11 +34,11 @@
     "static/media/solana.png": "/rampx/static/media/solana.f6b11342d5cc0696d80e.png",
     "static/media/amex.png": "/rampx/static/media/amex.7c3f76159102a4b21447.png",
     "index.html": "/rampx/index.html",
-    "main.920104d8.css.map": "/rampx/static/css/main.920104d8.css.map",
-    "main.197403c8.js.map": "/rampx/static/js/main.197403c8.js.map"
+    "main.bde49bfa.css.map": "/rampx/static/css/main.bde49bfa.css.map",
+    "main.8a1618e0.js.map": "/rampx/static/js/main.8a1618e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.920104d8.css",
-    "static/js/main.197403c8.js"
+    "static/css/main.bde49bfa.css",
+    "static/js/main.8a1618e0.js"
   ]
 }
