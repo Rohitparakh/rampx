@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rampx/static/css/main.01c814b7.css",
-    "main.js": "/rampx/static/js/main.24f05ebb.js",
+    "main.css": "/rampx/static/css/main.edffbce5.css",
+    "main.js": "/rampx/static/js/main.a7f331d8.js",
     "static/media/SolutionCardThreeBg.png": "/rampx/static/media/SolutionCardThreeBg.32db0b181814d0fc329f.png",
     "static/media/spring.png": "/rampx/static/media/spring.9bff7c5ff0596a179fe5.png",
     "static/media/heroLight.png": "/rampx/static/media/heroLight.6426dce82e383494e2b8.png",
@@ -11,7 +11,6 @@
     "static/media/solutionCardOne.png": "/rampx/static/media/solutionCardOne.003d80763501b1ee2fd5.png",
     "static/media/9.png": "/rampx/static/media/9.c4af44b28d7545be80f9.png",
     "static/media/6.png": "/rampx/static/media/6.f8a1ab558da8355c2c10.png",
-    "static/media/footerLogo.png": "/rampx/static/media/footerLogo.0e98fda2d558bc4b6ad8.png",
     "static/media/8.png": "/rampx/static/media/8.e14aca106ba7092bc3f8.png",
     "static/media/7.png": "/rampx/static/media/7.97e9d206477c9b3e32dc.png",
     "static/media/solutionDog.png": "/rampx/static/media/solutionDog.aaf55240d88f0304b1bd.png",
@@ -20,25 +19,27 @@
     "static/media/5.png": "/rampx/static/media/5.7a44e1f3a6f77c4334fa.png",
     "static/media/dogBg.png": "/rampx/static/media/dogBg.81a651553ebb39c9dff8.png",
     "static/media/twitterPfp.png": "/rampx/static/media/twitterPfp.051a5f1dbb327a82acca.png",
+    "static/media/footerLogo.png": "/rampx/static/media/footerLogo.bb1fa63fe19383fce844.png",
     "static/media/3.png": "/rampx/static/media/3.346d76a0436f241c886c.png",
     "static/media/4.png": "/rampx/static/media/4.b92e4a7f6c4298f3c9fd.png",
+    "static/media/twitterLight.png": "/rampx/static/media/twitterLight.4b1ee65d35a15364d1d1.png",
     "static/media/ponkeSwap.png": "/rampx/static/media/ponkeSwap.52128d12acdbf8893236.png",
-    "static/media/twitterLight.png": "/rampx/static/media/twitterLight.bd049d72637ee9b565c2.png",
     "static/media/skiIcon.png": "/rampx/static/media/skiIcon.023bf2520ae923ab228d.png",
     "static/media/twitter.png": "/rampx/static/media/twitter.a387a34d6060bd48866f.png",
     "static/media/base.png": "/rampx/static/media/base.9d969d9fd3ac4c49925e.png",
-    "static/media/discordLight.png": "/rampx/static/media/discordLight.63359c34de2ccf9d499f.png",
+    "static/media/discordLight.png": "/rampx/static/media/discordLight.314e1c5428395deb81d6.png",
     "static/media/discord.png": "/rampx/static/media/discord.97ffd97a03751a3e6a71.png",
+    "static/media/linkedinLight.png": "/rampx/static/media/linkedinLight.b9df2a4d9f0e3ebca9c0.png",
     "static/media/rectangle.png": "/rampx/static/media/rectangle.04d6a14cd32609485dac.png",
     "static/media/metricsContainer.png": "/rampx/static/media/metricsContainer.ef0fcaa17f28a10ea684.png",
     "static/media/solana.png": "/rampx/static/media/solana.f6b11342d5cc0696d80e.png",
     "static/media/amex.png": "/rampx/static/media/amex.7c3f76159102a4b21447.png",
     "index.html": "/rampx/index.html",
-    "main.01c814b7.css.map": "/rampx/static/css/main.01c814b7.css.map",
-    "main.24f05ebb.js.map": "/rampx/static/js/main.24f05ebb.js.map"
+    "main.edffbce5.css.map": "/rampx/static/css/main.edffbce5.css.map",
+    "main.a7f331d8.js.map": "/rampx/static/js/main.a7f331d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.01c814b7.css",
-    "static/js/main.24f05ebb.js"
+    "static/css/main.edffbce5.css",
+    "static/js/main.a7f331d8.js"
   ]
 }
