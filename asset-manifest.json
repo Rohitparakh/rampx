@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.24965c86.css",
+    "main.css": "/static/css/main.61965c80.css",
     "main.js": "/static/js/main.3eaf66ea.js",
     "static/media/SolutionCardThreeBg.png": "/static/media/SolutionCardThreeBg.32db0b181814d0fc329f.png",
     "static/media/spring.png": "/static/media/spring.9bff7c5ff0596a179fe5.png",
@@ -34,11 +34,11 @@
     "static/media/solana.png": "/static/media/solana.f6b11342d5cc0696d80e.png",
     "static/media/amex.png": "/static/media/amex.7c3f76159102a4b21447.png",
     "index.html": "/index.html",
-    "main.24965c86.css.map": "/static/css/main.24965c86.css.map",
+    "main.61965c80.css.map": "/static/css/main.61965c80.css.map",
     "main.3eaf66ea.js.map": "/static/js/main.3eaf66ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.24965c86.css",
+    "static/css/main.61965c80.css",
     "static/js/main.3eaf66ea.js"
   ]
 }
